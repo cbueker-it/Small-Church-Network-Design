@@ -24,23 +24,19 @@ The purpose is not to add unnecessary complexity. The purpose is to create infra
 - Define firewall and inter-VLAN routing concepts that control access between internal networks and guest traffic.
 - Develop an implementation and growth model that includes validation, documentation, monitoring, maintenance, and future expansion.
 
-**Network Topology and Segmentation**
-
-The primary design combines the physical and logical network topology into one reference. The environment uses managed switching, VLAN segmentation, PoE access infrastructure, wireless access points, and firewall policy to separate major areas of church operations.
-
-The design separates staff and administrative systems, pastoral and leadership systems, AV and production systems, security and building systems, and public guest traffic. Each group is assigned its own logical network while still using the shared managed infrastructure.
-
 **Growing Church Network Design**
+
+This topology shows a conceptual church network divided into five VLANs for staff and administration, pastoral and leadership, AV and production, security and building systems, and guest Wi-Fi. Each segment has its own subnet and security purpose, while shared managed switching and 802.1Q trunks carry traffic between the network devices.
+
+The router/firewall provides the default gateways and controls inter-VLAN access. Internal VLANs can reach only the resources they are authorized to use, while the guest Wi-Fi VLAN is allowed Internet access but is isolated from the internal church networks.
 
 ![Growing Church Network Design](images/01-network-topology.png)
 
-**Implementation and Growth Roadmap**
-
-Designing the topology is only one part of building a network. The environment also needs a structured implementation process that begins with understanding the existing infrastructure and operational requirements before changes are made.
-
-The roadmap progresses through assessment, managed infrastructure, segmentation, wireless and firewall configuration, validation, documentation, monitoring, and future expansion. The goal is to make controlled changes and build the network in stages rather than introducing unnecessary complexity all at once.
-
 **Growing Church Network Implementation and Growth Roadmap**
+
+This roadmap shows how I would approach implementing and growing the network in stages. The process begins with assessing the existing environment and documenting users, devices, and operational needs before introducing managed switching, VLAN segmentation, wireless access, and firewall policy.
+
+The final stage focuses on operating the network over time through validation, documentation, monitoring, maintenance, and controlled expansion as the church adds more users, devices, access points, security systems, or other technology.
 
 ![Growing Church Network Implementation and Growth Roadmap](images/02-growth-roadmap.png)
 
