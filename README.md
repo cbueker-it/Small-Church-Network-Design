@@ -8,7 +8,7 @@ The goal is to move beyond a basic flat network and create an environment that i
 
 The project also focuses on implementation and long-term operation. A network should be designed around current requirements while leaving a clear path for additional users, devices, access points, security systems, and other technology as the organization grows.
 
-**Business Value**
+**Corporate Value**
 
 A church network may support many different types of systems that do not need the same level of access. Staff workstations, leadership devices, AV equipment, security cameras, printers, building systems, and guest devices can all have different operational and security requirements.
 
