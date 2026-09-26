@@ -2,11 +2,11 @@
 
 Conceptual church network design covering VLAN segmentation, managed switching, PoE, wireless access, firewall policy, and scalable infrastructure planning.
 
-This project explores how I would design a structured network for a growing church environment. The design accounts for staff and administrative systems, pastoral and leadership devices, AV and production equipment, security systems, wireless access, and public guest connectivity.
+This project explores how I would design a structured network for a growing church environment. The design accounts for staff and administrative systems, pastoral and leadership devices, AV and production equipment, security systems, wireless access, and internet access for guests.
 
-The goal is to move beyond a basic flat network and create an environment that is easier to secure, troubleshoot, document, and expand. The design uses managed switching, VLAN segmentation, 802.1Q trunks, PoE infrastructure, multiple wireless SSIDs, and firewall policy to separate different types of network traffic while still using shared infrastructure.
+The goal is to move beyond a basic flat network and create an environment that is easier to secure, troubleshoot, document, and expand. The design uses managed switching, VLAN segmentation, 802.1Q trunks, PoE infrastructure, multiple wireless SSIDs, and firewall policy to separate different types of network traffic.
 
-The project also focuses on implementation and long-term operation. A network should be designed around current requirements while leaving a clear path for additional users, devices, access points, security systems, and other technology as the organization grows.
+The project also focuses on implementation and long-term operation. A organization's network should be designed around current requirements. Additionally, the network design ought to show a clear path for additional users, devices, access points, security systems, and other technology as the organization grows.
 
 **Corporate Value**
 
@@ -28,7 +28,7 @@ The purpose is not to add unnecessary complexity. The purpose is to create infra
 
 The primary design combines the physical and logical network topology into one reference. The environment uses managed switching, VLAN segmentation, PoE access infrastructure, wireless access points, and firewall policy to separate major areas of church operations.
 
-The design separates staff and administrative systems, pastoral and leadership systems, AV and production systems, security and building systems, and public guest traffic. Each group is assigned its own logical network while still using shared managed infrastructure.
+The design separates staff and administrative systems, pastoral and leadership systems, AV and production systems, security and building systems, and public guest traffic. Each group is assigned its own logical network while still using the shared managed infrastructure.
 
 **Growing Church Network Design**
 
