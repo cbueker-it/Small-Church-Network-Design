@@ -2,13 +2,13 @@
 
 Conceptual church network design covering VLAN segmentation, managed switching, PoE, wireless access, firewall policy, and scalable infrastructure planning.
 
-This project explores how I would design a structured network for a growing church environment. The design accounts for staff and administrative systems, pastoral and leadership devices, AV and production equipment, security systems, wireless access, and internet access for guests.
+This project explores how I would design a structured network for a growing church environment. The design accounts for staff and administrative systems, pastoral and leadership devices, AV and production equipment, security systems, wireless access, and guest internet access.
 
 The goal is to move beyond a basic flat network and create an environment that is easier to secure, troubleshoot, document, and expand. The design uses managed switching, VLAN segmentation, 802.1Q trunks, PoE infrastructure, multiple wireless SSIDs, and firewall policy to separate different types of network traffic.
 
-The project also focuses on implementation and long-term operation. A organization's network should be designed around current requirements. Additionally, the network design ought to show a clear path for additional users, devices, access points, security systems, and other technology as the organization grows.
+The project also focuses on implementation and long-term operation. An organization's network should be designed around current requirements. Additionally, the network design ought to show a clear path for additional users, devices, access points, security systems, and other technology as the organization grows.
 
-**Corporate Value**
+**Operational Value**
 
 A church network may support many different types of systems that do not need the same level of access. Staff workstations, leadership devices, AV equipment, security cameras, printers, building systems, and guest devices can all have different operational and security requirements.
 
