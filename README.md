@@ -62,6 +62,6 @@ I also developed an implementation and growth roadmap that moves from assessment
 
 This project helped me connect individual networking concepts into a complete design and think more deeply about how a network can be implemented, secured, maintained, troubleshot, and expanded over time.
 
-## Navigation
+**Navigation**
 
 [`Back to GitHub Profile`](https://www.github.com/cbueker-it)
