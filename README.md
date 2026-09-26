@@ -1,36 +1,28 @@
 **Small-Church-Network-Design**
 
-Conceptual church network design covering VLAN segmentation, managed switching, PoE, wireless access, and firewall policy.
+Conceptual church network design covering VLAN segmentation, managed switching, PoE, wireless access, firewall policy, and scalable infrastructure planning.
 
-Churches that are growing in attendance, ministry activity, staff responsibilities, media production, security needs, and guest connectivity also need technology that can grow with them. A church may begin with a simple router, a few computers, and basic Wi-Fi, but that infrastructure can become difficult to manage as additional users, devices, cameras, production systems, and wireless clients are added.
+This project explores how I would design a structured network for a growing church environment. The design accounts for staff and administrative systems, pastoral and leadership devices, AV and production equipment, security systems, wireless access, and public guest connectivity.
 
-Strong network infrastructure provides a foundation for safe and reliable operations. Segmentation helps protect administrative, leadership, production, security, and guest systems from unnecessary access to one another. Managed switching, VLANs, firewall policy, and structured wireless access also make the network easier to maintain, troubleshoot, and expand over time.
+The goal is to move beyond a basic flat network and create an environment that is easier to secure, troubleshoot, document, and expand. The design uses managed switching, VLAN segmentation, 802.1Q trunks, PoE infrastructure, multiple wireless SSIDs, and firewall policy to separate different types of network traffic while still using shared infrastructure.
 
-For a church that is serious about its mission and preparing for growth, technology should support that work rather than become a limitation. The goal of this project is to demonstrate how a church network can be designed with enough structure to remain secure, supportable, and scalable as organizational needs increase.
+The project also focuses on implementation and long-term operation. A network should be designed around current requirements while leaving a clear path for additional users, devices, access points, security systems, and other technology as the organization grows.
 
 **Business Value**
 
-A growing church network supports more than Internet access. It may support staff workstations, leadership systems, printers, audio and visual production, security cameras, building systems, wireless devices, and public guest access.
+A church network may support many different types of systems that do not need the same level of access. Staff workstations, leadership devices, AV equipment, security cameras, printers, building systems, and guest devices can all have different operational and security requirements.
 
-Without proper segmentation and planning, these systems may all share the same network even though they have very different security and operational requirements.
+Segmenting those systems provides better control over how traffic moves through the network. It also creates a cleaner environment for troubleshooting, security policy, documentation, and future expansion.
 
-A structured design provides several business and ministry benefits:
-
-- Better separation between internal and guest traffic.
-- Improved protection for staff, leadership, AV, and security systems.
-- Easier troubleshooting and network visibility.
-- Greater ability to add users, devices, switches, and wireless access points as the church grows.
-- More consistent documentation and long-term infrastructure management.
+The purpose is not to add unnecessary complexity. The purpose is to create infrastructure that is reliable, secure, understandable, and able to grow with the organization.
 
 **Objectives**
 
-- Design a secure and scalable network for a growing church environment.
-- Separate major business and ministry functions using VLANs.
-- Use managed switching and PoE infrastructure where appropriate.
-- Provide secure wireless access through multiple SSIDs.
-- Isolate guest traffic from internal church resources.
-- Apply firewall policy between VLANs based on operational need.
-- Create a design that can be documented, maintained, and expanded over time.
+- Design a physical and logical network topology for a growing church environment.
+- Use VLANs, subnets, access ports, and 802.1Q trunks to separate major network functions.
+- Incorporate managed switching, PoE infrastructure, and multiple wireless SSIDs into the design.
+- Define firewall and inter-VLAN routing concepts that control access between internal networks and guest traffic.
+- Develop an implementation and growth model that includes validation, documentation, monitoring, maintenance, and future expansion.
 
 **Network Topology and Segmentation**
 
@@ -44,9 +36,9 @@ The design separates staff and administrative systems, pastoral and leadership s
 
 **Implementation and Growth Roadmap**
 
-A network design also needs a practical path for implementation and long-term operation. The roadmap begins with understanding the current environment before making changes, then moves through managed infrastructure, segmentation, security policy, monitoring, documentation, and future expansion.
+Designing the topology is only one part of building a network. The environment also needs a structured implementation process that begins with understanding the existing infrastructure and operational requirements before changes are made.
 
-The goal is not to introduce unnecessary complexity. The goal is to build infrastructure deliberately, validate changes, maintain accurate documentation, and expand the network when actual organizational requirements justify it.
+The roadmap progresses through assessment, managed infrastructure, segmentation, wireless and firewall configuration, validation, documentation, monitoring, and future expansion. The goal is to make controlled changes and build the network in stages rather than introducing unnecessary complexity all at once.
 
 **Growing Church Network Implementation and Growth Roadmap**
 
@@ -54,21 +46,21 @@ The goal is not to introduce unnecessary complexity. The goal is to build infras
 
 **Lessons Learned**
 
-- Network design should begin with understanding the users, devices, business functions, and operational requirements before equipment or configuration changes are introduced.
-- VLAN segmentation allows different church functions to share the same physical infrastructure while keeping traffic logically separated and easier to control.
-- Guest wireless traffic should be isolated from internal church systems while still providing reliable Internet access for attendees.
-- Managed switching, PoE, firewall policy, and multiple wireless SSIDs provide a stronger foundation for security, troubleshooting, and future expansion.
-- A network is not finished when it is installed. Long-term reliability requires monitoring, documentation, controlled changes, backups, maintenance, and continued review as organizational needs grow.
+- Network design should begin with understanding the users, devices, traffic types, and operational requirements before selecting equipment or changing configurations.
+- VLANs and subnets provide logical separation while allowing multiple groups to share the same managed switching infrastructure.
+- Access ports, 802.1Q trunks, default gateways, and inter-VLAN routing each have different roles in determining how traffic moves through the network.
+- Wireless SSIDs can map users into different VLANs, allowing staff, leadership, and guest wireless traffic to follow different security policies.
+- Network design continues after installation through validation, monitoring, documentation, maintenance, and controlled expansion.
 
 **Summary**
 
-In this project, I designed a conceptual network for a growing church that needs reliable, secure, and scalable infrastructure.
+In this project, I designed a conceptual physical and logical network for a growing church environment.
 
-The design uses managed switching, VLAN segmentation, PoE access infrastructure, multiple wireless SSIDs, and firewall policy to separate staff, leadership, AV and production, security systems, and guest traffic.
+The design uses managed switching, VLAN segmentation, 802.1Q trunks, PoE infrastructure, multiple wireless SSIDs, subnetting, inter-VLAN routing, and firewall policy to separate staff, leadership, AV and production, security, and guest traffic.
 
-The overall goal is to build the network in a structured way so that it can support current operations while also being prepared for future growth. The environment should remain simple enough to manage, secure enough to protect important resources, and flexible enough to expand as new users, devices, ministries, and technology requirements are introduced.
+I also developed an implementation and growth roadmap that moves from assessment and planning through segmentation, security, validation, documentation, monitoring, and future expansion.
 
-The approach demonstrated here reflects the same principles I would use when planning infrastructure in a small-business or organizational environment: understand the requirements, design deliberately, segment where appropriate, validate the implementation, document the environment, and continue improving it over time.
+This project helped me connect individual networking concepts into a complete design and think more deeply about how a network can be implemented, secured, maintained, troubleshot, and expanded over time.
 
 ## Navigation
 
